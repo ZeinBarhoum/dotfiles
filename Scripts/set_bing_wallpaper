@@ -1,0 +1,17 @@
+#!/bin/bash
+market=${LANG:-en-US}
+market=${market%.*}
+market=${market/_/-}
+read data < <(curl -s "https://www.bing.com/HPImageArchive.aspx?idx=0&n=1&mkt=${market}")
+
+# extract image url
+image=${data#*\<url\>}
+image=${image%\</url\>*}
+
+url="https://www.bing.com/$image"
+read md5 dash < <(md5sum <<< "$image")
+name="bing-$(date +%F)"
+
+curl -s $url --output "$HOME/Pictures/wallpapers/$name.jpg"
+
+feh --bg-fill "$HOME/Pictures/wallpapers/$name.jpg"

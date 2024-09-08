@@ -16,7 +16,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Hack 15
+font pango:Hack 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -36,7 +36,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-exec --no-startup-id blueman-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -213,8 +212,13 @@ exec_always --no-startup-id  "bash ~/Scripts/set_bing_wallpaper"
 bindsym $mod+b exec --no-startup-id "bash ~/Scripts/set_bing_wallpaper"
 bindsym $mod+n exec --no-startup-id "feh --randomize --bg-fill ~/Pictures/wallpapers/"
 
+#both my mouses :)
 exec_always --no-startup-id xinput set-prop "PNP0C50:00 06CB:CE4C Touchpad" "libinput Tapping Enabled" 1
 exec_always --no-startup-id xinput set-prop "PNP0C50:00 06CB:CE4C Touchpad" "libinput Natural Scrolling Enabled" 1
+
+exec_always --no-startup-id xinput set-prop "MSNB0001:00 04F3:30AA Touchpad" "libinput Tapping Enabled" 1
+exec_always --no-startup-id xinput set-prop "MSNB0001:00 04F3:30AA Touchpad" "libinput Natural Scrolling Enabled" 1
+
 exec_always --no-startup-id xset r rate 200 35
 
 ## Screenshots
@@ -227,8 +231,14 @@ bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t ima
 bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
+exec --no-startup-id blueman-applet
 exec --no-startup-id mcontrolcenter
 exec --no-startup-id pasystray
 
 bindsym $mod+Shift+x exec --no-startup-id i3lock-fancy
 
+## enable moving workspace between monitors
+bindsym $mod+Ctrl+h move workspace to output left
+bindsym $mod+Ctrl+j move workspace to output up
+bindsym $mod+Ctrl+k move workspace to output down
+bindsym $mod+Ctrl+l move workspace to output right

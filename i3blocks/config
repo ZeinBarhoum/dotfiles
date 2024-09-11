@@ -51,7 +51,7 @@ interval=once
 
 [VOL]
 command=~/.config/i3blocks/volume/volume
-interval=once
+interval=1
 signal=1
 #MIXER=[determined automatically]
 #SCONTROL=[determined automatically]

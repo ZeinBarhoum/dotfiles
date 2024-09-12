@@ -193,6 +193,8 @@ mode "open" {
         bindsym f exec --no-startup-id firefox; mode "default"
         bindsym t exec --no-startup-id telegram-desktop; mode "default"
         bindsym n exec --no-startup-id nautilus; mode "default"
+        bindsym m exec --no-startup-id gnome-system-monitor; mode "default"
+        bindsym c exec --no-startup-id gnome-calculator; mode "default"
 
         bindsym Return mode "default"
         bindsym Escape mode "default"

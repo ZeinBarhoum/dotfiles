@@ -53,7 +53,7 @@ interval=once
 command=~/.config/i3blocks/volume/volume
 interval=1
 signal=1
-#MIXER=[determined automatically]
+MIXER=pulse
 #SCONTROL=[determined automatically]
 ##exposed format variables: ${SYMB}, ${VOL}, ${INDEX}, ${NAME}
 #LONG_FORMAT="${SYMB} ${VOL}% [${INDEX}:${NAME}]"

@@ -5,6 +5,11 @@
 
 separator_block_width=40
 
+[NET]
+LABEL=""
+command=~/.config/i3blocks/bandwidth3/bandwidth3
+interval=persist
+
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=2

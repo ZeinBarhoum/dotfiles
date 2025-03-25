@@ -192,7 +192,8 @@ bindsym $mod+r mode "resize"
 mode "open" {
         bindsym f exec --no-startup-id firefox; mode "default"
         bindsym t exec --no-startup-id telegram-desktop; mode "default"
-        bindsym n exec --no-startup-id nautilus; mode "default"
+        # bindsym n exec --no-startup-id nautilus; mode "default"
+        bindsym n exec --no-startup-id thunar; mode "default"
         bindsym m exec --no-startup-id gnome-system-monitor; mode "default"
         bindsym c exec --no-startup-id gnome-calculator; mode "default"
         bindsym z exec --no-startup-id zotero; mode "default"
@@ -247,3 +248,4 @@ bindsym $mod+Ctrl+k move workspace to output down
 bindsym $mod+Ctrl+l move workspace to output right
 
 bindsym $mod+Shift+Return exec "kitty -d `xcwd`"
+bindsym $mod+Ctrl+Return exec "kitty distrobox-enter u24 -- bash -c 'source /opt/ros/jazzy/setup.bash && echo ROS 2 Jazzy && exec bash'"

@@ -143,9 +143,8 @@ bindsym $mod+0 workspace number $ws10
 # special workspaces 
 # z for zotero, gazevo/rviz or other ros gui tools
 bindsym $mod+z workspace number $ws10
-# x and a when z is taken
-bindsym $mod+x workspace number $ws9
-bindsym $mod+a workspace number $ws8
+# a when z is taken
+bindsym $mod+a workspace number $ws9
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -159,8 +158,7 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+z move container to workspace number $ws10
-bindsym $mod+Shift+x move container to workspace number $ws9
-bindsym $mod+Shift+a move container to workspace number $ws8
+bindsym $mod+Shift+a move container to workspace number $ws9
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

@@ -202,6 +202,7 @@ mode "open" {
         bindsym m exec --no-startup-id gnome-system-monitor; mode "default"
         bindsym c exec --no-startup-id gnome-calculator; mode "default"
         bindsym z exec --no-startup-id zotero; mode "default"
+        bindsym e exec --no-startup-id thunderbird; mode "default"
 
         bindsym Return mode "default"
         bindsym Escape mode "default"

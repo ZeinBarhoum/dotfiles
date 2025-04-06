@@ -31,3 +31,5 @@ List:
 - IsaacSim: from [archive](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html#download-isaac-sim-short), in Isaac/IsaacSim
 
 - IsaacLab: from [source](https://github.com/ZeinBarhoum/IsaacLab), in Isaac/IsaacLab
+
+- Ros1 Noetic: from [source](https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0)

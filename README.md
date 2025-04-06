@@ -51,3 +51,7 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 ### gitconfig
 
 - Simply link `ln -s ~/.dotfiles/.gitconfig ~/.gitconfig`
+
+### Conda
+
+- Simply link `ln -s ~/.dotfiles/.condarc ~/.condarc`

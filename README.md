@@ -21,3 +21,7 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 - For the temperature monitor, lm-sensors is required `sudo apt install lm-sensors`
 - For showing the current keyboard language, kbdd is required `sudo apt install kbdd`
 
+### kitty
+- First install kitty `sudo apt install kitty`
+- Install the configs using symbolic link `ln ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf`
+- The used font is `JetBrainsMono`, you can download it from [here](https://www.nerdfonts.com/) and follow [these instructions ](https://askubuntu.com/a/3701) to install.

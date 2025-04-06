@@ -28,3 +28,14 @@ The main goal from this file is to avoid searching for a solution I know I found
   - The `isaaclab.sh` is executed using `bash isaaclab.sh` instead of `./isaaclab.sh`
 
 - Data is showing in Russian. Problem with `locale`, can be changed by changing the file `/etc/default/locale`
+
+- `latexindent` not modifying break.
+  - Solution add `-m --yaml="modifyLineBreaks:textWrapOptions:columns:80"`.
+  - In nvim (conform) add
+    ```lua
+    require("conform").formatters.latexindent ={ prepend_args = { "-m", "--yaml=modifyLineBreaks:textWrapOptions:columns:80"}}
+    ```
+    It's important to not add `''` around the yaml spec, this WON'T WORK:
+    ```lua
+    require("conform").formatters.latexindent = { prepend_args = { "-m", "--yaml='modifyLineBreaks:textWrapOptions:columns:80'"}}
+    ```

@@ -3,7 +3,7 @@
 First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotfiles`
 ### i3
 - First install i3wm using the package manager. For ubuntu: follow [the instructions](https://i3wm.org/docs/repositories.html) to get latest stable version
-- Install the configs using symbolic link `ln ~/.dotfiles/i3/config ~/.config/i3/config`
+- Install the configs using symbolic link `ln -s ~/.dotfiles/i3/config ~/.config/i3/config`
 - Install missing apps connected to shortcuts, like: `kitty`, `firefox`, etc.
 - For wallpapers, install feh `sudo apt install feh`
 - For screenshots:  xclip `sudo apt install maim xclip`
@@ -16,12 +16,16 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 ### i3blocks
 - First install i3blocks (from source is best) using [the instructions](https://github.com/vivien/i3blocks?tab=readme-ov-file#installation)
 - Clone the collection of scripts `git clone https://github.com/vivien/i3blocks-contrib ~/.config/i3blocks`
-- Install the configs using symbolic link `ln ~/.dotfiles/i3blocks/config ~/.config/i3blocks/config`
+- Install the configs using symbolic link `ln -s ~/.dotfiles/i3blocks/config ~/.config/i3blocks/config`
 - For the monitor manager icon, tkinter is required `sudo apt-get install python3-tk`
 - For the temperature monitor, lm-sensors is required `sudo apt install lm-sensors`
 - For showing the current keyboard language, kbdd is required `sudo apt install kbdd`
 
 ### kitty
 - First install kitty `sudo apt install kitty`
-- Install the configs using symbolic link `ln ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf`
+- Install the configs using symbolic link `ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf`
 - The used font is `JetBrainsMono`, you can download it from [here](https://www.nerdfonts.com/) and follow [these instructions ](https://askubuntu.com/a/3701) to install.
+
+### Scripts
+- Create a symlink `ln -s ~/.dotfiles/Scripts/ ~/Scripts`
+- Add Scripts to PATH in your shell config using `export PATH="$HOME/Scripts/:$PATH"`

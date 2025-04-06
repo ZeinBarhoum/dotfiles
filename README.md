@@ -29,3 +29,14 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 ### Scripts
 - Create a symlink `ln -s ~/.dotfiles/Scripts/ ~/Scripts`
 - Add Scripts to PATH in your shell config using `export PATH="$HOME/Scripts/:$PATH"`
+
+### zsh
+- First install zsh `sudo apt install zsh`.
+- Install oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`.
+- Install `powerlevel10k` theme `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"`
+- Remove the default omz config `mv ~/.zshrc ~/.zshrc.back`
+- Install the config using symlink: `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
+- First time to open a terminal, you will be prompted to configure the theme
+- Install sourced or aliases programs like micromamba/conda if required
+
+

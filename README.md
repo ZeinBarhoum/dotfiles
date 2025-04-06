@@ -39,4 +39,7 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 - First time to open a terminal, you will be prompted to configure the theme
 - Install sourced or aliases programs like micromamba/conda if required
 
+### gitconfig
+- Simply link `ln -s ~/.dotfiles/.gitconfig ~/.gitconfig`
+
 

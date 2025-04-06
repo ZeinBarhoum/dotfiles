@@ -12,6 +12,7 @@ url="https://www.bing.com/$image"
 read md5 dash < <(md5sum <<< "$image")
 name="bing-$(date +%F)"
 
+mkdir -p "$HOME/Pictures/wallpapers"
 curl -s $url --output "$HOME/Pictures/wallpapers/$name.jpg"
 
 feh --bg-fill "$HOME/Pictures/wallpapers/$name.jpg"

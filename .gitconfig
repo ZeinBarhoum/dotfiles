@@ -2,3 +2,5 @@
 	email = zein.barhoum799@gmail.com
 	name = Zein Alabedeen Barhoum
 	signingkey = C5F70EB91D3A4B70
+[pull]
+	rebase = false

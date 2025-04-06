@@ -57,3 +57,6 @@ function precmd() {
   set_terminal_title
 }
 set_terminal_title
+
+alias noetic='source /opt/ros/noetic/setup.zsh'
+alias humble='source /opt/ros/humble/setup.zsh'

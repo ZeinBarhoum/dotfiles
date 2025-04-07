@@ -30,6 +30,7 @@ The main goal from this file is to avoid searching for a solution I know I found
 - Data is showing in Russian. Problem with `locale`, can be changed by changing the file `/etc/default/locale`
 
 - `latexindent` not modifying break.
+
   - Solution add `-m --yaml="modifyLineBreaks:textWrapOptions:columns:80"`.
   - In nvim (conform) add
     ```lua
@@ -41,7 +42,8 @@ The main goal from this file is to avoid searching for a solution I know I found
     ```
 
 - Installing Ros1 noetic on ubuntu 22.04?
-    - Excellent intructions [here](https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0)
-    - For me, I skipped the rosdep stuff and installed dependencies when they are not FOUND. I had to install `libpoco-dev`, `liblog4cxx-dev`, `libbz2-dev` and `libgpgme-dev`. I have Ros2 already so probably alot of shared dependencies are already on my system.
-    - If installing on `/opt/ros/noetic` fails even after building without it succeed. Delete devel and build dirs and do the build with install command directly.
-    - After installation, `roscore` gives `ModuleNotFoundError: No module named 'defusedxml'`. Simply `pip install defusedxml`
+
+  - Excellent intructions [here](https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0)
+  - For me, I skipped the rosdep stuff and installed dependencies when they are not FOUND. I had to install `libpoco-dev`, `liblog4cxx-dev`, `libbz2-dev` and `libgpgme-dev`. I have Ros2 already so probably alot of shared dependencies are already on my system.
+  - If installing on `/opt/ros/noetic` fails even after building without it succeed. Delete devel and build dirs and do the build with install command directly.
+  - After installation, `roscore` gives `ModuleNotFoundError: No module named 'defusedxml'`. Simply `pip install defusedxml`

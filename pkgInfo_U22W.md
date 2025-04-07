@@ -6,7 +6,7 @@ Legend:
 
 - source: software is build from source. Updating is manual. in case of using cpack, uninstalling can be done using apt, otherwise uninstalling is also manual. If not told otherwise, it's on `$HOME/Programs/source/`
 
-- Archive: software is installed using an archive (tar or zip). update and uninstall is done manually. If not told otherwise, it's on `$HOME/Programs/archive/`
+- Archive: software is installed using an archive (tar or zip). update and uninstall is done manually. If not told otherwise, it's on `$HOME/Programs/archive/`. By archive we don't mean source code installed as archive, this goes in the source section.
 
 - Binary: software is installed using a binary (deb) file. Uninstall is done using apt, but update is manual. If not told otherwise, it's on `$HOME/Programs/binary/`
 
@@ -39,3 +39,7 @@ List:
 - distrobox: from [script](https://github.com/89luca89/distrobox?tab=readme-ov-file#curl-or-wget)
 
 - miniconda: from [script](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
+
+- Docker: from [PPA](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+
+- nvidia-container-toolkit [PPA](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#with-apt-ubuntu-debian)

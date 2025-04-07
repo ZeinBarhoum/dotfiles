@@ -2,6 +2,8 @@
 
 ## Install
 
+Note, for neovim config, check [here](https://github.com/ZeinBarhoum/nvim_config)
+
 First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotfiles`
 
 ### i3

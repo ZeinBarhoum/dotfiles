@@ -10,6 +10,8 @@ Legend:
 
 - Binary: software is installed using a binary (deb) file. Uninstall is done using apt, but update is manual. If not told otherwise, it's on `$HOME/Programs/binary/`
 
+- Script: software is installed using an installation script. If the script is directly run, e.g `curl <url> | sudo sh `, then it will not be physically on the machine. Otherwise, it's on `$HOME/Programs/script`
+
 List:
 
 - Zotero: from [PPA](https://github.com/retorquere/zotero-deb)
@@ -33,3 +35,7 @@ List:
 - IsaacLab: from [source](https://github.com/ZeinBarhoum/IsaacLab), in Isaac/IsaacLab
 
 - Ros1 Noetic: from [source](https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0)
+
+- distrobox: from [script](https://github.com/89luca89/distrobox?tab=readme-ov-file#curl-or-wget)
+
+- miniconda: from [script](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)

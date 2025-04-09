@@ -43,3 +43,7 @@ List:
 - Docker: from [PPA](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 - nvidia-container-toolkit [PPA](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#with-apt-ubuntu-debian)
+
+- Drawio: from [binary](https://www.drawio.com/)
+
+- Zoom: from [binary](https://zoom.us/download?os=linux)

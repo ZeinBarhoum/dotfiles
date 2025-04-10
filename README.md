@@ -36,6 +36,8 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 - For the monitor manager icon, tkinter is required `sudo apt-get install python3-tk`
 - For the temperature monitor, lm-sensors is required `sudo apt install lm-sensors`
 - For showing the current keyboard language, kbdd is required `sudo apt install kbdd`
+- If bandwidth is not appearing, try to install `sudo apt install gawk`
+- If battery level is not showing, try to install `sudo apt install acpi`
 
 ### kitty
 

@@ -47,3 +47,7 @@ List:
 - Drawio: from [binary](https://www.drawio.com/)
 
 - Zoom: from [binary](https://zoom.us/download?os=linux)
+
+- rust: from [script](https://www.rust-lang.org/tools/install)
+
+- i3status-rust: from [source](https://github.com/greshake/i3status-rust/blob/master/doc/manual_install.md)

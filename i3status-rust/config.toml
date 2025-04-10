@@ -1,0 +1,48 @@
+[icons]
+icons = "awesome4"
+
+[[block]]
+block = "net"
+
+[[block]]
+block = "disk_space"
+
+[[block]]
+block = "battery"
+format = " $icon $percentage "
+full_format = " $icon $percentage "
+empty_format = " $icon $percentage "
+not_charging_format = " $icon $percentage "
+
+[[block]]
+block = "cpu"
+
+[[block]]
+block = "temperature"
+
+[[block]]
+block = "nvidia_gpu"
+
+[[block]]
+block = "memory"
+
+[[block]]
+block = "backlight"
+
+[[block]]
+block = "music"
+format = " $icon "
+[[block.click]]
+button = "left"
+action = "play_pause"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "time"
+
+[[block]]
+block = "custom"
+command = ''' bash ~/.config/i3status-rust/custom/kbdd_layout '''
+persistent = true

@@ -47,3 +47,5 @@ The main goal from this file is to avoid searching for a solution I know I found
   - For me, I skipped the rosdep stuff and installed dependencies when they are not FOUND. I had to install `libpoco-dev`, `liblog4cxx-dev`, `libbz2-dev` and `libgpgme-dev`. I have Ros2 already so probably alot of shared dependencies are already on my system.
   - If installing on `/opt/ros/noetic` fails even after building without it succeed. Delete devel and build dirs and do the build with install command directly.
   - After installation, `roscore` gives `ModuleNotFoundError: No module named 'defusedxml'`. Simply `pip install defusedxml`
+
+- `awk` is behaving not as expected. Make sure `gawk` is installed not `mawk` which doesn't support the full functionality of awk language.

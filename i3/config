@@ -256,3 +256,5 @@ bindsym $mod+Ctrl+k move workspace to output down
 bindsym $mod+Ctrl+l move workspace to output right
 
 bindsym $mod+Shift+Return exec "kitty -d `xcwd`"
+
+exec --no-startup-id picom --daemon 

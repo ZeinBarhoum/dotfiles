@@ -3,6 +3,8 @@ icons = "awesome4"
 
 [[block]]
 block = "net"
+format = " $icon ^icon_net_down $speed_down.eng(prefix:K) "
+format_alt = " $icon ^icon_net_up $speed_up.eng(prefix:K) "
 
 [[block]]
 block = "disk_space"
@@ -19,15 +21,18 @@ block = "cpu"
 
 [[block]]
 block = "temperature"
+format = " $icon $average "
 
 [[block]]
 block = "nvidia_gpu"
 
 [[block]]
 block = "memory"
+format = " $icon $mem_used.eng(prefix:Mi) "
 
 [[block]]
 block = "backlight"
+invert_icons = true
 
 [[block]]
 block = "music"
@@ -41,8 +46,8 @@ block = "sound"
 
 [[block]]
 block = "time"
+format = " $icon $timestamp.datetime(f:%R) "
 
 [[block]]
-block = "custom"
-command = ''' bash ~/.config/i3status-rust/custom/kbdd_layout '''
-persistent = true
+block= "keyboard_layout"
+driver = "kbddbus"

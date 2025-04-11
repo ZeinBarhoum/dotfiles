@@ -1,0 +1,5 @@
+#!/bin/bash
+
+killall kbdd 2>/dev/null
+kbdd >/dev/null || exit 1
+setxkbmap -layout us,ru,ar -variant ,phonetic_YAZHERTY, -option 'grp:alt_shift_toggle'

@@ -258,3 +258,4 @@ bindsym $mod+Ctrl+l move workspace to output right
 bindsym $mod+Shift+Return exec "kitty -d `xcwd`"
 
 exec --no-startup-id picom --daemon 
+exec_always --no-startup-id setxkbmap -option; setxkbmap -layout us,ru,ar -variant ,phonetic_YAZHERTY, -option grp:alt_shift_toggle; pkill kbdd; /usr/bin/kbdd

@@ -26,6 +26,7 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 - If you choose to use i3status-rust as a status bar, install it first from source using [these instructions](https://github.com/greshake/i3status-rust/blob/master/doc/manual_install.md)
 - Create a config path `mkdir -p ~/.config/i3status-rust/`
 - Link config there `ln -s ~/.dotfiles/i3status-rust/config.toml ~/.config/i3status-rust/config.toml`
+- For showing the current keyboard language, kbdd is required `sudo apt install kbdd`
 
 ### i3blocks
 

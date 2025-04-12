@@ -60,3 +60,4 @@ set_terminal_title
 
 alias noetic='source /opt/ros/noetic/setup.zsh'
 alias humble='source /opt/ros/humble/setup.zsh'
+alias clear='printf "\x1b[H\x1b[2J"' # to solve problems with conda and kitty 

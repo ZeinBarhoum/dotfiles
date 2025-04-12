@@ -51,3 +51,5 @@ List:
 - rust: from [script](https://www.rust-lang.org/tools/install)
 
 - i3status-rust: from [source](https://github.com/greshake/i3status-rust/blob/master/doc/manual_install.md)
+
+- go: from [archive](https://go.dev/doc/install)

@@ -5,7 +5,8 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ENABLE_CORRECTION="true"
-plugins=(git kitty python)
+plugins=(git kitty python pip conda-zsh-completion)
+# for conda-zsh-completion see (https://github.com/conda-incubator/conda-zsh-completion)
 source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'

@@ -47,8 +47,8 @@ max_vol = 100
 
 [[block]]
 block = "time"
-format = " $icon $timestamp.datetime(f:%R) "
+format = " $icon $timestamp.datetime() "
 
 [[block]]
-block= "keyboard_layout"
+block = "keyboard_layout"
 driver = "kbddbus"

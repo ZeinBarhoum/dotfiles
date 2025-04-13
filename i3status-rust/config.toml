@@ -43,6 +43,7 @@ action = "play_pause"
 
 [[block]]
 block = "sound"
+max_vol = 100
 
 [[block]]
 block = "time"

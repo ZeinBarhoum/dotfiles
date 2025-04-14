@@ -2,6 +2,9 @@
 icons = "awesome4"
 
 [[block]]
+block = "pomodoro"
+
+[[block]]
 block = "net"
 format = " $icon ^icon_net_down $speed_down.eng(prefix:K) "
 format_alt = " $icon ^icon_net_up $speed_up.eng(prefix:K) "

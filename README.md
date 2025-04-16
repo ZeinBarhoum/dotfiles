@@ -63,6 +63,8 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 ### gitconfig
 
 - Simply link `ln -s ~/.dotfiles/.gitconfig ~/.gitconfig`
+- For local config, first create a local config file `touch ~/.gitconfig.local`.
+- It's already linked in the main config, so you can add your local config there.
 
 ### Conda
 

@@ -1,8 +1,13 @@
 [user]
 	email = zein.barhoum799@gmail.com
 	name = Zein Alabedeen Barhoum
-	signingkey = C5F70EB91D3A4B70
+[includeIf "gitdir:~/"]
+    path = ~/.gitconfig.local
 [pull]
 	rebase = false
 [init]
 	defaultBranch = master
+[alias]
+    # compied from tjdevries
+    # Thanks r00k, this creates a pretty graph view of the log
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative

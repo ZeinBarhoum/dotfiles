@@ -59,6 +59,7 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 - Install the config using symlink: `ln -s ~/.dotfiles/.zshrc ~/.zshrc && ln -s ~/.dotfiles/.zshenv ~/.zshenv`
 - First time to open a terminal, you will be prompted to configure the theme
 - Install sourced or aliases programs like micromamba/conda if required
+- For `conda-zsh-completion` plugin, `git clone https://github.com/conda-incubator/conda-zsh-completion ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/conda-zsh-completion`
 
 ### gitconfig
 

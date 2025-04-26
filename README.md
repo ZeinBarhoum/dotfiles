@@ -70,3 +70,7 @@ First of all, clone this repo `git clone github.com/ZeinBarhoum/dotfiles ~/.dotf
 ### Conda
 
 - Simply link `ln -s ~/.dotfiles/.condarc ~/.condarc`
+
+### Zathurs
+
+- `ln -s ~/.dotfiles/zathura ~/.config/zathura`

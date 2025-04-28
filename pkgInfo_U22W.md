@@ -38,7 +38,7 @@ List:
 
 - distrobox: from [script](https://github.com/89luca89/distrobox?tab=readme-ov-file#curl-or-wget)
 
-- miniconda: from [script](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
+- ~~miniconda: from [script](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)~~
 
 - Docker: from [PPA](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
@@ -53,5 +53,7 @@ List:
 - i3status-rust: from [source](https://github.com/greshake/i3status-rust/blob/master/doc/manual_install.md)
 
 - go: from [archive](https://go.dev/doc/install)
+
+- miniforge (conda+mamba): from [script](https://github.com/conda-forge/miniforge)
 
 - micromamba: from [script](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)

@@ -49,3 +49,5 @@ The main goal from this file is to avoid searching for a solution I know I found
   - After installation, `roscore` gives `ModuleNotFoundError: No module named 'defusedxml'`. Simply `pip install defusedxml`
 
 - `awk` is behaving not as expected. Make sure `gawk` is installed not `mawk` which doesn't support the full functionality of awk language.
+
+- problems with `libstdc++` and `gl` in conda env with isaaclab, check [here](https://stackoverflow.com/questions/72110384/libgl-error-mesa-loader-failed-to-open-iris), copy the system's `libstdc++` inside conda instead of the conda-provided one.

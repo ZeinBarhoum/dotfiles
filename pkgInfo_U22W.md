@@ -57,3 +57,7 @@ List:
 - miniforge (conda+mamba): from [script](https://github.com/conda-forge/miniforge)
 
 - micromamba: from [script](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)
+
+- cudatoolkit 12.6: from [PPA](https://developer.nvidia.com/cuda-12-6-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
+
+- cudnn 12.6: from [PPA](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)

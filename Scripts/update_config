@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd $HOME/.dotfiles 
+git pull origin master 
+git push origin master 
+
+cd $HOME/.config/nvim 
+git pull origin master
+git push origin master
+
+

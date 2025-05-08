@@ -55,3 +55,7 @@ format = " $icon $timestamp.datetime() "
 [[block]]
 block = "keyboard_layout"
 driver = "kbddbus"
+
+[[block]]
+block = "custom"
+command = "echo 'RA-L, robotorch'"

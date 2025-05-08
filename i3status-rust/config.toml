@@ -2,6 +2,10 @@
 icons = "awesome4"
 
 [[block]]
+block = "custom"
+command = "echo 'RA-L, robotorch'"
+
+[[block]]
 block = "pomodoro"
 
 [[block]]
@@ -55,7 +59,3 @@ format = " $icon $timestamp.datetime() "
 [[block]]
 block = "keyboard_layout"
 driver = "kbddbus"
-
-[[block]]
-block = "custom"
-command = "echo 'RA-L, robotorch'"

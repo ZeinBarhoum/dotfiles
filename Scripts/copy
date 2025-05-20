@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Check if a file path is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 /path/to/file"
+  exit 1
+fi
+
+# Resolve the absolute path of the file
+FILE_PATH="$(realpath "$1")"
+
+echo "file://$FILE_PATH" | xclip -selection clipboard -t text/uri-list
+
+echo "Copied '$FILE_PATH' to clipboard."

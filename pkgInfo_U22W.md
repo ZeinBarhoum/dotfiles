@@ -4,7 +4,7 @@ Legend:
 
 - PPA: personal package archive is added to apt, software can be uninstalled or updated directly thought apt.
 
-- source: software is build from source. Updating is manual. in case of using cpack, uninstalling can be done using apt, otherwise uninstalling is also manual. If not told otherwise, it's on `$HOME/Programs/source/`
+- source: software is build from source. Updating is manual. in case of using cpack or checkinstall, uninstalling can be done using apt, otherwise uninstalling is also manual. If not told otherwise, it's on `$HOME/Programs/source/`
 
 - Archive: software is installed using an archive (tar or zip). update and uninstall is done manually. If not told otherwise, it's on `$HOME/Programs/archive/`. By archive we don't mean source code installed as archive, this goes in the source section.
 
@@ -61,3 +61,5 @@ List:
 - cudatoolkit 12.6: from [PPA](https://developer.nvidia.com/cuda-12-6-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
 - cudnn 12.6: from [PPA](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
+
+- ceres solver: from [source](http://ceres-solver.org/installation.html) - installed using `checkinstall` with name `ceres`

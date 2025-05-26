@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Get file path from clipboard
+FILE_URL=$(xclip -selection clipboard -o -t text/uri-list)
+
+# Remove the 'file://' prefix
+FILE_PATH="${FILE_URL#file://}"
+FILE_PATH="${FILE_PATH//$'\r'/}"  # remove carriage returns
+FILE_PATH="${FILE_PATH//$'\n'/}"  # remove newlines
+
+# Check if the file exists
+if [ ! -f "$FILE_PATH" ]; then
+  echo "Error: '$FILE_PATH' does not exist or is not a regular file."
+  exit 1
+fi
+
+# Copy the file to the current directory
+cp "$FILE_PATH" .
+
+echo "Pasted file '$FILE_PATH' into $(pwd)"

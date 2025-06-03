@@ -65,3 +65,5 @@ List:
 - ceres solver: from [source](http://ceres-solver.org/installation.html) - installed using `checkinstall` with name `ceres`
 
 - yandex browser: from [binary](https://browser.yandex.ru/c/browser-linux)
+
+- uv: from [script](https://docs.astral.sh/uv/getting-started/installation/)

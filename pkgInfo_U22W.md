@@ -63,3 +63,7 @@ List:
 - cudnn 12.6: from [PPA](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
 - ceres solver: from [source](http://ceres-solver.org/installation.html) - installed using `checkinstall` with name `ceres`
+
+- yandex browser: from [binary](https://browser.yandex.ru/c/browser-linux)
+
+- uv: from [script](https://docs.astral.sh/uv/getting-started/installation/)

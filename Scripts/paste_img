@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Check for filename argument
+if [ -z "$1" ]; then
+  echo "Usage: $0 <output_filename.png>"
+  exit 1
+fi
+
+FILENAME="$1"
+
+# Ensure the filename ends with .png
+if [[ "$FILENAME" != *.png ]]; then
+  FILENAME="${FILENAME}.png"
+fi
+
+# Try to get image data from the clipboard and write to the specified file
+xclip -selection clipboard -t image/png -o > "$FILENAME"
+
+# Check if the image was saved successfully
+if [ $? -ne 0 ] || [ ! -s "$FILENAME" ]; then
+  echo "Error: No image found in clipboard or failed to save image."
+  rm -f "$FILENAME"  # Clean up if the file is empty or invalid
+  exit 1
+fi
+
+echo "Pasted image as '$FILENAME' into $(pwd)"

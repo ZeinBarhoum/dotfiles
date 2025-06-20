@@ -67,3 +67,5 @@ List:
 - yandex browser: from [binary](https://browser.yandex.ru/c/browser-linux)
 
 - uv: from [script](https://docs.astral.sh/uv/getting-started/installation/)
+
+- code-insiders: from [binary](https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders)

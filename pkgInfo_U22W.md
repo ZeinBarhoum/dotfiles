@@ -75,3 +75,5 @@ List:
 - obs: from [PPA](https://github.com/obsproject/obs-studio/wiki/install-instructions#linux)
 
 - code-insiders: from [binary](https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders)
+
+- ollama: from [script](https://github.com/ollama/ollama)

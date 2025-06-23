@@ -73,3 +73,5 @@ List:
 - kitty: from [script](https://sw.kovidgoyal.net/kitty/binary/)
 
 - obs: from [PPA](https://github.com/obsproject/obs-studio/wiki/install-instructions#linux)
+
+- code-insiders: from [binary](https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders)

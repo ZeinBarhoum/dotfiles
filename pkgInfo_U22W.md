@@ -67,3 +67,9 @@ List:
 - yandex browser: from [binary](https://browser.yandex.ru/c/browser-linux)
 
 - uv: from [script](https://docs.astral.sh/uv/getting-started/installation/)
+
+- anydesk: from [PPA](https://deb.anydesk.com/howto.html)
+
+- kitty: from [script](https://sw.kovidgoyal.net/kitty/binary/)
+
+- obs: from [PPA](https://github.com/obsproject/obs-studio/wiki/install-instructions#linux)

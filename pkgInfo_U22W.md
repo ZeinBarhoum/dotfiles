@@ -77,3 +77,5 @@ List:
 - code-insiders: from [binary](https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders)
 
 - ollama: from [script](https://github.com/ollama/ollama)
+
+- affine: from [binary](https://github.com/toeverything/AFFiNE/releases/tag/v0.22.4)

@@ -2,11 +2,12 @@
 icons = "awesome4"
 
 [[block]]
-block = "custom"
-command = "echo 'RA-L, robotorch'"
+block = "pomodoro"
 
 [[block]]
-block = "pomodoro"
+block = "tea_timer"
+format = " $icon {$minutes:$seconds |}"
+done_cmd = "notify-send 'Timer Finished'"
 
 [[block]]
 block = "net"

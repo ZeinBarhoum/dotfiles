@@ -8,6 +8,8 @@ FILE_PATH="${FILE_URL#file://}"
 FILE_PATH="${FILE_PATH//$'\r'/}"  # remove carriage returns
 FILE_PATH="${FILE_PATH//$'\n'/}"  # remove newlines
 
+FILE_PATH=$(printf '%b' "${FILE_PATH//%/\\x}") # handle percent-encoded characters
+
 # Check if the file exists
 if [ ! -f "$FILE_PATH" ]; then
   echo "Error: '$FILE_PATH' does not exist or is not a regular file."

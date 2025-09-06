@@ -72,4 +72,7 @@ set_terminal_title
 alias noetic='source /opt/ros/noetic/setup.zsh'
 alias humble='source /opt/ros/humble/setup.zsh'
 alias clear='printf "\x1b[H\x1b[2J"' # to solve problems with conda and kitty 
+# argcomplete for ros2 & colcon
+eval "$(register-python-argcomplete3 ros2)"
+eval "$(register-python-argcomplete3 colcon)"
 

@@ -8,4 +8,7 @@ cd $HOME/.config/nvim
 git pull origin master
 git push origin master
 
+cd $HOME/Documents/papers_zotero 
+git pull origin master
+git push origin master
 

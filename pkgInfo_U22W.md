@@ -28,7 +28,7 @@ List:
 
 - MControlCenter: from [archive](https://github.com/dmitry-s93/MControlCenter)
 
-- yandex-music: from [binary](https://github.com/cucumber-sp/yandex-music-linux)
+- ~yandex-music: from [binary](https://github.com/cucumber-sp/yandex-music-linux)~
 
 - IsaacSim: from [archive](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html#download-isaac-sim-short), in Isaac/IsaacSim
 
@@ -79,3 +79,5 @@ List:
 - ollama: from [script](https://github.com/ollama/ollama)
 
 - affine: from [binary](https://github.com/toeverything/AFFiNE/releases/tag/v0.22.4)
+
+- yandex music (official) from [binary](https://music.yandex.ru/download/)
